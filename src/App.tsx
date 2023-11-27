@@ -1,5 +1,5 @@
-import CookieBanner from './CookieBanner'
-import LeadForm from './LeadForm'
+import CookieBanner from './components/CookieBanner'
+import LeadForm from './components/LeadForm'
 
 function App() {
   return (

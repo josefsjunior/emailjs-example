@@ -44,9 +44,9 @@ export default function LeadForm() {
     return (
         <form ref={form} onSubmit={sendEmail} className="flex-col gap-2 p-2 bg-gray-300 rounded-sm">
             <p className="text-3xl font-bold text-center">Formulário EmailJs</p>
-            <Input label="Nome" placeholder="Nome completo" value={name} onChange={(e) => setName(e.target.value)} />
-            <Input label="Email" type="email" placeholder="E-mail" value={email} onChange={(e) => setEmail(e.target.value)} />
-            <Input label="Mensagem" placeholder="Digite sua mensagem aqui" value={message} onChange={(e) => setMessage(e.target.value)} />
+            <Input labelText="Nome" placeholder="Nome completo" value={name} onChange={(e) => setName(e.target.value)} />
+            <Input labelText="Email" type="email" placeholder="E-mail" value={email} onChange={(e) => setEmail(e.target.value)} />
+            <Input labelText="Mensagem" placeholder="Digite sua mensagem aqui" value={message} onChange={(e) => setMessage(e.target.value)} />
             <div className="pt-1 pb-1 flex justify-center items-center font-bold text-white bg-blue-600">
                 <input type="submit" value="Enviar" />
             </div>
